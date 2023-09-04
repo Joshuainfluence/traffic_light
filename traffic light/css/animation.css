@@ -1,0 +1,86 @@
+#animation{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pole{
+    width: 30%;
+    height: 580px;
+    border: 1px solid black;
+    background-color: black;
+}
+.redlight{
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 150px 150px 150px 150px;
+    margin-top: 30px;
+    margin-left: 30%;
+    background-color: grey;
+    animation: julius 10s linear infinite;
+}
+.yellowlight{
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 150px 150px 150px 150px;
+    margin-top: 30px;
+    margin-left: 30%;
+    background-color: grey;
+    animation: influence 10s linear infinite;
+
+}
+.greenlight{
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 150px 150px 150px 150px;
+    margin-top: 30px;
+    margin-left: 30%;
+    background-color: grey;
+    animation: joshua 10s linear infinite;
+}
+@keyframes julius {
+    
+   0%{
+       background-color:grey;
+   }
+   20%{
+       background-color: red;
+   }
+   30%{
+       background-color:grey;
+      }
+    
+}
+@keyframes influence{
+    
+    40%{
+        background-color: grey;
+    }
+    50%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: grey;
+    }
+
+     
+ }
+ @keyframes joshua {
+    
+    70%{
+        background-color: grey;
+    }
+    90%{
+        background-color: green;
+    }
+    100%{
+        background-color: grey;
+    }
+     
+ }
+    
